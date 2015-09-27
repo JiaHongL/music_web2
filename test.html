@@ -1,0 +1,55 @@
+<% layout(layoutPath) -%>
+
+<div id="song-library-page" ng-controller="TableFilterCtrl">
+    <div class="song-library-title">
+        <h3><i class="fa fa-table"></i>
+            Song Library
+        </h3>
+    </div>
+    <table  width="100%" id="css_table"  style="table-layout:fixed" >
+        <thead>
+            <tr class="css_tr_title">
+                <td width="4%" class="css_td title"><input type="checkbox" class="input-checkbox"></td>
+                <td width="10%" class="css_td title">Internal ID</td>
+                <td width="12%" class="css_td title">Title</td>
+                <td width="11%" class="css_td title">Artist Name</td>
+                <td width="11%" class="css_td title">Genrename</td>
+                <td width="11%" class="css_td title">Keyname</td>
+                <td width="11%" class="css_td title">Duration</td>
+                <td class="css_td title">Manufacture code</td>
+                <td class="css_td title">Lyrics</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="css_tr">
+                <td class="css_td"></td>
+                <td class="css_td"><input type="text" class="input-text" ng-model="search.$"></td>
+                <td class="css_td"><input type="text" class="input-text" ng-model="search.name"></td>
+                <td class="css_td"><input type="text" class="input-text" ng-model="search.age"></td>
+                <td class="css_td"><input type="text" class="input-text" ng-model="search.skills"></td>
+                <td class="css_td"><input type="text" class="input-text"></td>
+                <td class="css_td"><input type="text" class="input-text"></td>
+                <td class="css_td"><input type="text" class="input-text"></td>
+                <td class="css_td"><input type="text" class="input-text"></td>
+            </tr>
+            <tr class="css_tr" ng-repeat="list in lists | filter:search">
+                <td class="css_td title"><input type="checkbox" class="input-checkbox"></td>
+                <td class="css_td">{{ list.InternalID }}</td>
+                <td class="css_td">{{ list.Title }}</td>
+                <td class="css_td">{{ list.ArtistName }}</td>
+                <td class="css_td">{{ list.GenreName }}</td>
+                <td class="css_td">{{ list.KeyName }}</td>
+                <td class="css_td">{{ list.Duration }}</td>
+                <td class="css_td">{{ list.ManufacturerCode }}</td>
+                <td class="css_td">lyric</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="pagination pagination-right table-tab">
+        <ul>
+            <li><a ng-click="previouspage()">Prev</a></li>
+            <li ng-repeat="list in lists"><a ng-click="anypage($index+1)">{{$index + 1}}</a></li>
+            <li><a ng-click="nextpage()">Next</a></li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,899 @@
+/* line 33, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 40, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 48, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 55, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 69, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 82, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 88, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 103, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 109, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 122, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 127, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 132, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 137, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 142, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 147, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+
+/* line 153, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 159, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 163, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 168, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 174, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 181, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 188, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/* line 196, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 203, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 210, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 216, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 222, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 228, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 235, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 239, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 253, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 257, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 264, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 270, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 283, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 289, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 300, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 311, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 316, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 325, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/* line 339, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 349, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 358, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 372, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+/* line 380, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 389, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/* line 399, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 409, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 415, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 422, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 434, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 7, ../sass/partials/_page.scss */
+body, select, input, textarea {
+  color: #222222;
+}
+
+/* line 7, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+/* line 27, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 9, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 11, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 67, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 13, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 93, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 98, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.clearfix:after {
+  clear: both;
+}
+/* line 104, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+}
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+}
+@media print {
+  /* line 11, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 19, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 23, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 27, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 37, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 42, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 47, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 52, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 56, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 66, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 72, ../../Desktop/Fire 2.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  /* Style adjustments for print go here */
+}
+/* line 1, ../sass/partials/_stytle.scss */
+.header {
+  position: relative;
+  height: 50px;
+}
+/* line 4, ../sass/partials/_stytle.scss */
+.header .logo {
+  position: absolute;
+  width: 200px;
+  left: 5%;
+}
+/* line 10, ../sass/partials/_stytle.scss */
+.header .logo .fa-music {
+  color: blue;
+}
+/* line 13, ../sass/partials/_stytle.scss */
+.header .logo a {
+  text-align: center;
+  font-size: 20px;
+  width: 124px;
+  height: 20px;
+  padding: 7px 0;
+}
+
+/* line 24, ../sass/partials/_stytle.scss */
+.container .tv_video {
+  width: 100%;
+  height: 650px;
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+/* line 31, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout {
+  padding-top: 10px;
+  width: 780px;
+  margin: 0 auto;
+}
+/* line 35, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .full_fram {
+  width: 100%;
+  height: 100%;
+}
+/* line 38, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .full_fram iframe {
+  width: 780px;
+  height: 438px;
+}
+/* line 44, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .video_info h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+}
+/* line 50, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div {
+  width: 780px;
+  height: 50px;
+}
+/* line 54, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div .views {
+  padding: 15px 0;
+  width: auto;
+  height: 20px;
+  float: left;
+}
+/* line 59, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div .views div {
+  padding-top: 20px;
+}
+/* line 61, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div .views div p {
+  color: #fff;
+  width: 150;
+  display: block;
+  float: left;
+  color: red;
+  font-size: 20px;
+  margin: 0px;
+}
+/* line 72, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div .views div .views_text {
+  color: #fff;
+  width: 150;
+  display: block;
+  float: left;
+  color: red;
+  font-size: 20px;
+  margin: 0px;
+}
+/* line 85, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div .search_div {
+  padding: 15px 0;
+  width: auto;
+  height: 20px;
+  float: right;
+}
+/* line 91, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div .search_div #viz {
+  display: inline;
+}
+/* line 93, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div .search_div #viz #analyser {
+  height: 100px;
+  display: inline;
+  background: #202020;
+}
+/* line 99, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div .search_div #viz #wavedisplay {
+  height: 100px;
+  display: inline;
+  background: #202020;
+}
+/* line 107, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div .search_div #record {
+  display: inline;
+  width: 70px;
+  height: 80px;
+}
+/* line 112, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div .search_div #save {
+  display: inline;
+}
+/* line 116, ../sass/partials/_stytle.scss */
+.container .tv_video .playerout .views_search_div .search_div #save #save_btn {
+  width: 50px;
+  height: 80px;
+}
+/* line 133, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out {
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+/* line 137, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container {
+  width: 960px;
+  height: 630px;
+  margin: 0 auto;
+}
+/* line 141, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container .block_title {
+  display: inline;
+  width: 950px;
+  height: 20px;
+}
+/* line 146, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container .block_title h3 {
+  display: inline;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #999;
+}
+/* line 155, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container .block_title #search_input {
+  height: 20px;
+  float: right;
+}
+/* line 160, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container .block_title #search_input #sing_text {
+  height: 20px;
+  border: 1px solid #BBBBBB;
+  background: #fff;
+  /* 邊角圓弧化，不同瀏器覧設定不同　*/
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 169, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container .block_title #search_input #sing_sub {
+  height: 20px;
+  border: 1px solid #BBBBBB;
+  background: #fff;
+  /* 邊角圓弧化，不同瀏器覧設定不同　*/
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 181, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container #tv_postgrid .divs {
+  width: 240px;
+  height: 170px;
+  float: left;
+  padding-top: 20px;
+}
+/* line 186, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container #tv_postgrid .divs .img_fa {
+  margin-right: 0px;
+  float: left;
+  position: relative;
+}
+/* line 190, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container #tv_postgrid .divs .img_fa i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -20px;
+  color: #fff;
+}
+/* line 198, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container #tv_postgrid .divs .img_fa h6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0px;
+  margin-top: 40px;
+  margin-left: 40px;
+  color: #fff;
+}
+/* line 208, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container #tv_postgrid .divs .img_fa p {
+  position: absolute;
+  width: 230px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: -115px;
+  opacity: 0.85;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bolder;
+  background-color: rgba(220, 0, 0, 0.8);
+}
+/* line 226, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container #tv_postgrid .divs .title {
+  list-style-type: none;
+  display: block;
+  margin-before: 0em;
+  margin-after: 1.33em;
+  text-align: left;
+  font: 13px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+  font-weight: bold;
+  float: left;
+  display: inline;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+/* line 240, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .tv_postgrid_container #tv_postgrid .divs .title .time {
+  color: #999;
+  font-size: 11px;
+  font-weight: normal;
+  display: inline;
+}
+/* line 253, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .next_previouspage {
+  width: 150px;
+  margin: 0 auto;
+}
+/* line 256, ../sass/partials/_stytle.scss */
+.container .tv_postgrid_container_out .next_previouspage a {
+  font-size: 16px;
+  border: 1px solid #ddd;
+  color: #0079ff;
+  padding: 11px 17px;
+  min-width: 64px;
+}
+/* line 266, ../sass/partials/_stytle.scss */
+.container .slogan_bar {
+  width: 100%;
+  height: 50px;
+  background: #000;
+  background-color: #ffffff;
+  padding: 20px;
+}
+/* line 272, ../sass/partials/_stytle.scss */
+.container .slogan_bar .slogan {
+  width: 910px;
+  height: 20px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+/* line 278, ../sass/partials/_stytle.scss */
+.container .slogan_bar .slogan h2 {
+  margin: 0 auto;
+  float: left;
+  width: 600px;
+  height: 20px;
+  font-size: 15px;
+}
+/* line 289, ../sass/partials/_stytle.scss */
+.container .tv_subcriver {
+  width: 100%;
+  height: 202px;
+  background-color: #F5F5F5;
+}
+
+/* line 297, ../sass/partials/_stytle.scss */
+.footer {
+  width: 100%;
+  height: 220px;
+  padding: 40px 0;
+  background-color: black;
+}
+/* line 303, ../sass/partials/_stytle.scss */
+.footer .AD_view {
+  width: 940px;
+  height: 108px;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #333;
+  margin-bottom: 40px;
+}
+/* line 310, ../sass/partials/_stytle.scss */
+.footer .AD_view .mg_view {
+  width: 728px;
+}
+/* line 314, ../sass/partials/_stytle.scss */
+.footer .link_view {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  font: 13px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+}
+/* line 319, ../sass/partials/_stytle.scss */
+.footer .link_view .url {
+  margin: px;
+  width: 150px;
+}
+/* line 322, ../sass/partials/_stytle.scss */
+.footer .link_view .url a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 328, ../sass/partials/_stytle.scss */
+.footer .link_view li {
+  margin: 8px;
+  color: #fff;
+  width: 150px;
+  list-style-type: none;
+  display: inline;
+}
+
+/* line 340, ../sass/partials/_stytle.scss */
+#record.recording {
+  background: red;
+  background: -webkit-radial-gradient(center, ellipse cover, red 0%, lightgrey 75%, lightgrey 100%, #7db9e8 100%);
+  background: -moz-radial-gradient(center, ellipse cover, red 0%, lightgrey 75%, lightgrey 100%, #7db9e8 100%);
+  background: radial-gradient(center, ellipse cover, #ff0000 0%, #d3d3d3 75%, #d3d3d3 100%, #7db9e8 100%);
+}
+
+/* line 347, ../sass/partials/_stytle.scss */
+#save {
+  opacity: 0.25;
+}
+
+/* line 348, ../sass/partials/_stytle.scss */
+#save[download] {
+  opacity: 1;
+}
+
+/* line 28, ../sass/style.scss */
+div {
+  background: red;
+}
+
+/* line 31, ../sass/style.scss */
+#main {
+  background: #FFAC55;
+  width: 99.5%;
+}
+
+/* line 38, ../sass/style.scss */
+#divlist {
+  height: 25%;
+}
+
+/* line 43, ../sass/style.scss */
+#next_page_div {
+  /* position:fixed;
+   left:50%;
+   top:97.4%;*/
+  /* z-index:-1;*/
+}
+
+/* line 51, ../sass/style.scss */
+.divs {
+  float: left;
+  height: 170px;
+  width: 33%;
+  border: #FFAFFE 1px solid;
+  /*background:linear-gradient(0deg,#FFAC55,#FDFF55);*/
+  background: #91FF92;
+}
+
+/* line 61, ../sass/style.scss */
+#sing_sub {
+  background: url("/img/blue.jpg");
+}
+
+/* line 66, ../sass/style.scss */
+li {
+  list-style-type: none;
+  font-size: 15px;
+  font-family: 標楷體;
+  font-style: italic;
+  color: purple;
+  /*text-shadow: 10px 8px 5px green ;*/
+}
+
+/* line 79, ../sass/style.scss */
+#player {
+  margin-top: 25px;
+}

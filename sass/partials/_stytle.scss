@@ -1,0 +1,351 @@
+.header{
+	position: relative;
+	height:50px;
+		.logo{
+			position: absolute;
+		 	width: 200px;
+		 	left: 5%;
+		 	// background-color:red;
+		 		.fa-music
+		 		{
+		 		   color: blue;
+		 		}
+				a{
+					text-align: center;
+					font-size: 20px;
+					width: 124px;
+					height: 20px;
+					padding: 7px 0;			}
+		}
+}
+
+
+.container{
+	.tv_video{
+		width: 100%;
+		height: 650px;
+		background-color: #333;
+		padding: 10px;
+		margin-bottom: 15px;
+		// margin: 0 auto;
+		.playerout{
+			padding-top:10px;
+			width: 780px;
+			margin: 0 auto;	
+			.full_fram {
+				width: 100%;
+				height: 100%;
+				iframe{
+					width:780px;
+					height:438px;
+				}
+			}
+			.video_info{	
+				h3{
+				color:#fff;
+				text-align: center;
+				font-size: 22px;
+				}
+			}
+			.views_search_div{
+				width:780px;
+				height:50px;
+				// padding: 10px 0;
+					.views{
+					padding: 15px 0;
+					width: auto;
+					height: 20px;
+					float:left;
+						div{
+							padding-top:20px; 
+							p{
+							color:#fff;
+							width: 150;
+							display:block;
+							float: left;
+							color: red;
+							font-size: 20px;
+							margin: 0px;
+							
+							}
+							.views_text
+							{
+							color:#fff;
+							width: 150;
+							display:block;
+							float: left;
+							color: red;
+							font-size: 20px;
+							margin: 0px;
+							}	
+
+						}
+						
+					}
+					.search_div{
+						padding: 15px 0;
+						width: auto;
+						height: 20px;
+						float: right;
+
+							#viz{
+								display: inline;
+								#analyser{
+									height: 100px;
+									display: inline;
+									background: #202020; 
+									// box-shadow: 0px 0px 10px blue;	
+								}
+								#wavedisplay{
+									height: 100px;
+									display: inline;
+									background: #202020; 
+									// box-shadow: 0px 0px 10px blue;	
+								}
+							}
+
+							#record{
+								display: inline;	
+								width:70px;
+								height: 80px;
+								}
+							#save{
+								display: inline;
+								// width:20px;
+								// height:20px;	
+								#save_btn{
+									width:50px;
+									height:80px;
+								}
+						    }
+
+					}
+
+
+
+			}
+		}
+
+		
+	 }
+
+
+	 .tv_postgrid_container_out{
+		// width:1265px;
+		padding: 10px 0;
+		margin-bottom: 10px; 
+		.tv_postgrid_container{
+		width:960px;	
+		height:630px;
+		margin: 0 auto;		
+			.block_title{
+				display: inline;
+				width:950px;
+				height: 20px;
+
+				    h3{	
+				        display: inline;			    	
+					 	font-size: 18px;
+						line-height: 20px;
+						font-weight: normal;
+						color: #999;
+				    }
+
+					#search_input
+					{
+					  height: 20px;
+					  // display: inline-block;
+					  float: right;
+					  // padding-left: : 100px;
+						#sing_text{
+							height: 20px;
+							border: 1px solid #BBBBBB; //改變外框
+						    background: #fff; // 背景色
+						    /* 邊角圓弧化，不同瀏器覧設定不同　*/
+						    -moz-border-radius:3px; // Firefox
+						    -webkit-border-radius: 3px; // Safari 和 Chrome
+						    border-radius: 3px; // Opera 10.5+	
+						}
+						#sing_sub{
+					    	height: 20px;
+					    	// display: inline;
+					    	border: 1px solid #BBBBBB; //改變外框
+						    background: #fff; // 背景色
+						    /* 邊角圓弧化，不同瀏器覧設定不同　*/
+						    -moz-border-radius:3px; // Firefox
+						    -webkit-border-radius: 3px; // Safari 和 Chrome
+						    border-radius: 3px; // Opera 10.5+	
+						}
+					}
+			}
+			#tv_postgrid .divs{
+				width: 240px;
+				height: 170px;
+				float: left;
+				padding-top: 20px;
+				.img_fa	{
+					margin-right: 0px;
+					float:left;
+					position: relative;
+						i{
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							margin-top: -16px;
+							margin-left: -20px;
+							color: #fff;
+						}
+						h6{
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							margin: 0px;
+							margin-top: 40px;
+							margin-left: 40px;
+							color: #fff;
+						}
+
+						p{
+							position: absolute;
+							width: 230px;
+							height: 30px;
+							top: 50%;
+							left: 50%;
+							color: #fff;
+							margin-top: 30px;
+							margin-left: -115px;
+							opacity: 0.85;
+							text-align: center;
+							height: 30px;
+							line-height: 30px;
+							font-weight:bolder;
+							background-color: rgba(220,0,0,0.8);
+						}
+				   }
+
+				.title{
+					 list-style-type:none;
+					 display: block;
+					 margin-before: 0em;
+					 margin-after: 1.33em;
+					 text-align: left;
+					 font: 13px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+					 font-weight: bold;
+					 float: left;
+					 display:inline;
+					 margin-top:0px;
+					 margin-right: 0px;
+					 margin-bottom: 0px;
+					 // float: left;
+					 		.time{
+						   		color: #999;
+								font-size: 11px;
+								font-weight: normal;
+						   		display: inline;
+						   		// text-align: left;
+			   		
+			   			}	
+				}
+
+		    }
+
+		}
+				    .next_previouspage{
+		    		width:150px ;
+		    		margin: 0 auto;	
+		    	 a{
+		    	 	font-size: 16px;
+		    	 	border: 1px solid #ddd;
+		    	 	color: #0079ff;
+		    	 	padding: 11px 17px;
+					min-width: 64px;
+								
+		    	 }
+		    }
+	}	
+	.slogan_bar{
+		width:100%;
+		height: 50px;
+		background: #000;
+		background-color:#ffffff;
+		padding:20px;
+			.slogan{
+			  width: 910px;
+			  height: 20px;
+			  padding: 15px;
+			  margin: 0 auto;	
+			  background-color: #f5f5f5;
+			  	h2{
+			  	margin: 0 auto;
+			  	float: left;
+			  	width:600px;
+			  	height: 20px;
+			  	font-size:15px;
+
+			 }
+			}
+	}
+
+	.tv_subcriver{
+		width:100%;
+		height:202px;
+		background-color: #F5F5F5;
+	}
+
+}
+
+.footer{
+	width:100%;
+	height: 220px;
+	padding: 40px 0;
+	background-color: black;
+
+		.AD_view{
+			width:940px;
+			height: 108px;
+			margin: 0 auto;
+			padding: 0;
+			border: 1px solid #333;
+			margin-bottom: 40px;
+				.mg_view{
+					width:728px;
+				} 	
+		}
+		.link_view{
+			width:940px;
+			margin: 0 auto;
+			text-align: center;
+			font:13px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif; 
+				.url{
+					margin: px;
+					width: 150px;
+						a{
+							color: #fff;
+							font-weight: bold;
+							text-decoration: none;
+						}
+				}		
+				li{
+					margin: 8px;
+					color: #fff;
+					width: 150px;
+					list-style-type:none;
+					display: inline;
+				}
+		}
+}
+
+
+// 錄影
+#record.recording { 
+		background: red;
+		background: -webkit-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); 
+		background: -moz-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); 
+		background: radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); 
+	}
+
+#save { opacity: 0.25;}
+#save[download] { opacity: 1;}
+.stytle{
+	
+}

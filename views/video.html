@@ -1,0 +1,124 @@
+  <title id="title">{{page_title}}</title>
+<div class="container" >  
+    <div class="header">
+          <div class="logo">
+            <a href="#/videos/">
+              <i class="fa fa-music fa-2x"></i>
+              <a>Demo</a> 
+            </a>
+        </div>
+    </div>
+    <div class="tv_video">
+        <div class="playerout">
+               <div class="full_fram">
+                    <iframe id="player"  class="abgne_iframe" src="//www.youtube.com/embed/{{url}}{{start_time}}" frameborder="1" allowfullscreen></iframe>
+                    <!-- ?autoplay=1 -->
+                      <!-- ?rel=0&start=20 --> 
+               </div>
+               <div class="video_info">
+                    <h3>{{page_title}}</h3>
+               </div>
+               <div class="views_search_div">
+                  <div class="views">
+                      <div>
+                        <p>Views :</p>
+                        <p class="views_text">{{views}}</p>  
+                      </div>
+                      <div>
+                        <p>Likes :</p>
+                        <p class="views_text">{{likes}}</p>  
+                      </div>
+                      <div>
+                        <p>Dislikes :</p>
+                        <p class="views_text">{{dislikes}}</p>  
+                      </div>
+                  </div>
+                  <div class="search_div" >
+                     
+                      <div id="viz">
+                        <canvas id="analyser"></canvas>
+                        <canvas id="wavedisplay"></canvas>
+                     </div>
+                      <img id="record" src="img/mic128.png" onclick="toggleRecording(this);" ng-click="startplay()">
+                      <a id="save" >
+                        <img id="save_btn" src="img/save.svg">
+                      </a>
+                  </div>                     
+                </div> 
+         </div>
+      </div>
+
+      <div class="tv_postgrid_container_out">  
+        <div class="tv_postgrid_container">
+            <div class="block_title">
+              <h3>Videolist</h3>
+              <div id="search_input">
+                  <input  id="sing_text" type="search" autofocus="autofocus" placeholder="serch song" list="browsers"  />
+                                  <datalist id="browsers">
+                                    <option value="庾澄慶">
+                                    <option value="陳芳語">
+                                    <option value="陳勢安">
+                                    <option value="李佳薇"> 
+                                    <option value="丁丁">  
+                                  </datalist>    
+                  <input  id="sing_sub" type="submit" value="Search" ng-click="sing_sub()"  ng-mouseover="mouseover()" ng-mouseout="mouseout()" />
+               </div>    
+            </div>
+            <div id="tv_postgrid" class="post_grid" align="center"  ng-repeat="list in lists">
+                <div class="divs" >
+                  <div class="img_fa" ng-mouseover="mouseover2()" ng-mouseout="mouseout2()" >
+                  <a href="#/videos/{{list.id.videoId||'null'}}/{{next||'null'}}/{{prev||'null'}}" >
+                    <!-- /videos=:videoId/next=:next/prev=:prev -->
+                      
+                      <img class="imgclick img" height="128" width="228"src="{{list.snippet.thumbnails.default.url}}" >
+                      <i ng-show="look" class="fa fa-play-circle-o fa-2x"  ></i>
+                     <h6>youtube.tw</h6>
+                      <p ng-show="list.id.videoId==url"  class="badge playing" >Now Playing</p>
+                  </a>
+                  </div>
+                  <h4 class="title" >{{list.snippet.title}}<span class="time">{{list.time_duration}}</span> </h4>
+                  
+                </div>
+            </div>          
+        </div>
+        <div class="next_previouspage">
+             <button id="tv-video-previousPage"  ng-click="prev_page(prev)" >«Prev</button>
+             <button id="tv-video-nextPage" ng-click="next_page(next)" >Next»</button>
+        </div>
+      </div>
+      <div class="slogan_bar">
+          <div class="slogan">
+                <h2>The best videos on the web everyday.</h2>
+          </div>
+      </div>
+      <!-- <div class="tv_subcriver">
+      </div> -->
+</div>     
+          
+<div class="footer">
+    <div class="AD_view">
+        <div class="img_view">
+           <img src="img/海.jpg" height="130" width="940">
+        </div>
+    </div>
+    <div class="link_view">
+      <li class="url">
+         <a href="https://www.facebook.com/lin.j.hong.39" target="_blank">Send feedback</a>
+      </li>  
+      <li>Copyright © 2014 JHL</li>
+    </div>
+</div>
+
+
+       <!--  <div id="main_recorder">
+                            <div id="viz">
+                              <canvas id="analyser"></canvas>
+                              <canvas id="wavedisplay"></canvas>
+                            </div>
+                            <div id="controls">
+                              <img id="record" src="img/mic128.png" onclick="toggleRecording(this);">
+                              <a id="save" href="#">
+                              <img id="save_btn"  src="img/save.svg">
+                              </a>
+                            </div>
+                        </div>  -->
