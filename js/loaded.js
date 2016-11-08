@@ -1,5 +1,5 @@
 var $key,$channelId,$youtube_api;
-$key = 'AIzaSyCfmi2Rsd5cjHV_-cW0avDqn5Nzq1k7EDA';  // V3 需要key才能使用api
+$key = 'AIzaSyBVuHpVV3PzlU0jNJN7PrDZXkGtcktwXdg';  // V3 需要key才能使用api
 $youtube_api = 'https://www.googleapis.com/youtube/v3'; //youtube api
  $channelId ='UCNjmu0sCgPqyK8GnsFfPKFw';  //測試
 // $channelId2 = 'UCQHthJbbEt6osR39NsST13g';
@@ -13,7 +13,7 @@ var part3="snippet,contentDetails"
 
 
 
-myApp.controller('loadedCtrl', function($scope, $location, $routeParams, $http) {		
+myApp.controller('loadedCtrl', function($scope, $location, $routeParams, $http) {
 	// $scope.time_temp = [];
 	//載入的時候
 	var videoId = $routeParams.videoId;
@@ -41,7 +41,7 @@ myApp.controller('loadedCtrl', function($scope, $location, $routeParams, $http) 
 							console.log(data);
 							// $scope.time_data(data);
 							// next_videoid=data.items[1].id.videoId;
-					});	
+					});
 		});
 
 
@@ -89,18 +89,18 @@ myApp.controller('loadedCtrl', function($scope, $location, $routeParams, $http) 
 	// 	   				}
 	// 	   			}
 	// 	   		}
-	// 	});	   
+	// 	});
 	//   }
 	// // console.log(time_temp);
 	// }
 
 	// 	//時間格式轉換
 	// $scope.time_fromat = function(time){
-	// var new_time 
+	// var new_time
 	// new_time=time.replace(/PT/, " ").replace(/M/,":").replace(/S/,"")
-	// return new_time;	
+	// return new_time;
 	// }
-	
+
 
 	//下一頁
 	$scope.next_page = function(next){
@@ -133,7 +133,7 @@ myApp.controller('loadedCtrl', function($scope, $location, $routeParams, $http) 
 				$scope.prev= data.prevPageToken;
 				$scope.lists =data.items;
 				$location.path("/videos/"+data.items[0].id.videoId+"/"+data.nextPageToken+"/"+data.prevPageToken);
-				 // window.history.pushState("/videos/"+data.items[0].id.videoId+"/"+data.nextPageToken+"/"+data.prevPageToken);	
+				 // window.history.pushState("/videos/"+data.items[0].id.videoId+"/"+data.nextPageToken+"/"+data.prevPageToken);
 			});
 	}
 
@@ -160,7 +160,7 @@ myApp.controller('loadedCtrl', function($scope, $location, $routeParams, $http) 
 
 	//滑鼠移出換圖
 	$scope.mouseout = function() {
-		$("#sing_sub").css('background-image', 'url(img/blue.jpg)');	
+		$("#sing_sub").css('background-image', 'url(img/blue.jpg)');
 	}
 
 
@@ -179,17 +179,17 @@ myApp.controller('loadedCtrl', function($scope, $location, $routeParams, $http) 
 	$scope.startplay=function(){
 
 		if (start_Quantity==0)
-			{	
+			{
 			// console.log("start...");
 			$scope.start_time="?autoplay=1";
 			start_Quantity=1;
-			$scope.$apply();	
+			$scope.$apply();
 			}
 			else
 			{
 			// console.log("end...");
 			$scope.start_time="";
-			start_Quantity=0;	
+			start_Quantity=0;
 			$scope.$apply();
 			}
 	}
@@ -199,7 +199,7 @@ myApp.controller('loadedCtrl', function($scope, $location, $routeParams, $http) 
 
 
     var player;
-    
+
     function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
           events: {
@@ -226,8 +226,8 @@ myApp.controller('loadedCtrl', function($scope, $location, $routeParams, $http) 
 	    if(e.data===YT.PlayerState.ENDED)
 	    {
 	    console.log("ended...");
-		location.replace("#/videos/"+next_videoid+"/"+next+"/"+prev); 
-	    // $location.path("/videos/"+next_videoid+"/"+next+"/"+prev);	
+		location.replace("#/videos/"+next_videoid+"/"+next+"/"+prev);
+	    // $location.path("/videos/"+next_videoid+"/"+next+"/"+prev);
 	    }
    }
 
@@ -246,7 +246,7 @@ myApp.controller('loadedCtrl', function($scope, $location, $routeParams, $http) 
 
 	// //播放time
 	// $scope.time_data = function(data){
-		
+
 	// 	var lists = data.items.length;
 	// 	for (var i in data.items){
 	// 	 $http({
@@ -275,9 +275,9 @@ myApp.controller('loadedCtrl', function($scope, $location, $routeParams, $http) 
 
 	// //時間格式轉換
 	// $scope.time_fromat = function(time){
-	// var new_time 
+	// var new_time
 	// new_time=time.replace(/PT/, " ").replace(/M/,":").replace(/S/,"")
-	// return new_time;	
+	// return new_time;
 	// }
 
 });
